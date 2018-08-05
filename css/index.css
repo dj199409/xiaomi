@@ -4,11 +4,16 @@
     /*去掉链表标签修饰*/
     list-style: none;
 }
+.happy{
+    width: 1349px;
+    height: 120px;
+    background: #2196f3;
+}
 .head{
-    width: 1247px;
+    width: 1349px;
     height: 50px;
     background: #333333;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 .lefthead{
     width: 700px;
@@ -195,12 +200,12 @@ a{
     float: left;
     margin-right: 14px;
     border-top: 1px solid  #ffac13;
+    cursor: pointer;
 }
 .picture3:hover{
     transform: translateY(-4px);
     transition: all 0.25s 0s linear;
 }
-
 .picture4{
     width: 234px;
     height: 340px;
@@ -309,6 +314,96 @@ a{
     text-align: center;
     color: #adadad;
 }
+.cross{
+    width: 1226px;
+    height: 120px;
+
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+.phone {
+    width: 1226px;
+    height: 672px;
+    background: #ff6700;
+    margin: 0 auto;
+}
+.phonehead{
+    width: 1226px;
+    height: 58px;
+    background: #f5f5f5;
+}
+.phone1{
+    width: 1226px;
+    height: 614px;
+    background: #f5f5f5;
+
+}
+.phone2{
+    width: 234px;
+    height: 614px;
+    margin-right: 14px;
+    float: left;
+}
+.phone3{
+    width: 978px;
+    height: 614px;
+    background: #f5f5f5;
+    float: right;
+}
+.phone4{
+    width: 234px;
+    height: 300px;
+    background: #ffffff;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+.phone5{
+    width: 234px;
+    height: 300px;
+    background: #ffffff;
+    float: left;
+    margin-right: 0px;
+    margin-bottom: 14px;
+}
+.phone6{
+    margin-top: 32px;
+}
+.phone7{
+    width: 234px;
+    height: 23px;
+    text-align: center;
+    margin-top: 15px;
+}
+.phone8{
+    width: 234px;
+    height: 23px;
+    text-align: center;
+    color: #b0b0b0;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.phone9{
+    width: 234px;
+    height: 23px;
+    text-align: center;
+    margin-top: 10px;
+    color: #ff6700;
+}
+.phone10{
+    width: 64px;
+    height: 20px;
+    background: red;
+    margin-left: 86px;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+}
+.phone11{
+    margin-top: 12px;
+}
 .appliances{
     width: 1226px;
     height: 675px;
@@ -318,7 +413,7 @@ a{
 .applianceshead{
     width: 1226px;
     height: 80px;
-    background: #2196f3;
+    background: #f5f5f5;
 
 }
 .appliancesleft1{
@@ -357,7 +452,7 @@ a{
     width: 234px;
     height: 614px;
     float:left;
-    background: cadetblue;
+    background: #ffffff;
 }
 .dj11{
     width: 234px;
@@ -374,16 +469,39 @@ a{
 .tjx{
     width: 992px;
     height: 614px;
-    background: royalblue;
+    background: #f5f5f5;
     float:right;
 }
+/*11111111111111111111111111111111111111111111111111111111111111111111111111111*/
 .tjx1{
     width: 234px;
     height: 300px;
-    background: chartreuse;
+    background: #ffffff;
     float: left;
     margin-left: 14px;
     margin-bottom: 14px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.tjx1:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
+}
+.tanchu{
+    width: 100%;
+    height: 60px;
+    background: #ff6700;
+    position: absolute;
+    left:0;
+    bottom:-60px;
+    transition: all 0.25s 0s linear;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+}
+.tjx1:hover .tanchu{
+    bottom:0px;
 }
 .tjx2{
     width: 234px;
@@ -394,8 +512,26 @@ a{
 .tjx3{
       width: 234px;
       height: 21px;
-      background: #e53935;
+      background: #ffffff;
       text-align: center;
+      font-size: 12px;
+      color: #333333;
+}
+.tjx4{
+    width: 234px;
+    height: 21px;
+    background:  #ffffff;
+    text-align: center;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.tjx5{
+    width: 234px;
+    height: 21px;
+    background:  #ffffff;
+    text-align: center;
+    font-size: 12px;
+    color: #ff6700;
 }
 .tjxlove{
     width: 234px;
@@ -405,7 +541,7 @@ a{
 .tjxlove1{
     width: 133px;
     height: 143px;
-    background: red;
+    background: #ffffff;
     float: left;
 }
 .tjxlove2{
@@ -423,7 +559,7 @@ a{
 .tjxlove4{
     width: 133px;
     height: 24px;
-    color: black;
+    color: #ff6700;
     text-align: center;
 }
 .tjxlove5{
@@ -434,16 +570,17 @@ a{
 
 }
 .tjxlove6{
-    width: 133px;
-    height: 24px;
-    color: black;
-    text-align: center;
+    width: 35px;
+    height: 35px;
+    color: #757575;
+    margin-left: 34px;
+
 
 }
 .tjxlove7{
     width: 133px;
     height: 143px;
-    background: red;
+    background: #ffffff;
     float: left;
     margin-top: 14px;
 }
@@ -463,33 +600,56 @@ a{
 .recommedhead{
     width: 1226px;
     height: 80px;
-    background: #ffac13;
+    background: #f5f5f5;
 }
 .recommedbotton{
     width: 1226px;
     height: 300px;
-    background: burlywood;
+    background: #f5f5f5;
 }
 .recommedbotton1{
     width: 234px;
     height: 300px;
-    background: chartreuse;
+    background: #ffffff;
     float: left;
     margin-left: 14px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
-.recommedbotton2{
+.recommedbotton1:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
+}
+
+.recommedbotton2 {
     width: 234px;
     height: 300px;
-    background: chartreuse;
+    background: #ffffff;
     float: left;
     margin-left: 0px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.recommedbotton2:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
 }
 .recommedbotton3{
     width: 234px;
     height: 300px;
-    background: chartreuse;
+    background: #ffffff;
     float: right;
     margin-right:0px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.recommedbotton3:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
 }
 .recommedbotton4{
     width: 234px;
@@ -501,7 +661,7 @@ a{
 .wwwwww{
     width: 234px;
     height: 24px;
-    background: aqua;
+    background: #ffffff;
     margin-top: 4px;
     text-align: center;
     font-size: 4px;
@@ -526,28 +686,42 @@ a{
 .product{
     width: 1226px;
     height: 473px;
-    background: #83c44e;
+    background: #f5f5f5;
     margin: 0 auto;
     margin-top: 28px;
 }
 .producthead{
     width: 1226px;
     height: 58px;
-    background: #2196f3;
+    background: #f5f5f5;
 }
 .product1{
     width: 296px;
     height: 415px;
-    background: #987598;
+    background: #ffffff;
     float: left;
     margin-right: 14px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.product1:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
 }
 .product2{
     width: 296px;
     height: 415px;
-    background: #987598;
+    background: #ffffff;
     float: left;
     margin-right: 0px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.product2:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
 }
 .product3{
     width: 296px;
@@ -558,7 +732,7 @@ a{
     width: 269px;
     height: 40px;
     margin-top: 20px;
-    background: cadetblue;
+    background: #ffffff;
     font-size: 14px;
     margin-left: 27px;
     line-height: 40px;
@@ -567,7 +741,7 @@ a{
     width: 269px;
     height: 40px;
     margin-top: 20px;
-    background: cadetblue;
+    background: #ffffff;
     font-size: 14px;
     margin-left: 27px;
     color: #b0b09f;
@@ -576,7 +750,7 @@ a{
     width: 269px;
     height: 40px;
     margin-top: 20px;
-    background: cadetblue;
+    background: #ffffff;
     font-size: 14px;
     margin-left: 27px;
     color: black;
@@ -586,14 +760,14 @@ a{
     width: 237px;
     height: 76px;
     margin-top: 20px;
-    background: #b0b09f;
+    background: #ffffff;
     font-size: 14px;
     margin-left: 27px;
 }
 .product8{
     width: 269px;
     height: 40px;
-    background: cadetblue;
+    background: #ffffff;
     font-size: 14px;
     margin-left: 27px;
     color: black;
@@ -603,7 +777,7 @@ a{
     width: 237px;
     height: 66px;
     margin-top: 20px;
-    background: #b0b09f;
+    background: #ffffff;
     font-size: 14px;
     margin-left: 27px
 }
@@ -611,7 +785,7 @@ a{
     width: 269px;
     height: 40px;
     margin-top: 4px;
-    background: cadetblue;
+    background: #ffffff;
     font-size: 14px;
     margin-left: 27px;
     color: #b0b09f;
@@ -619,34 +793,83 @@ a{
 .contect{
     width: 1226px;
     height: 478px;
-    background: blue;
+    background: #f5f5f5;
     margin: 0 auto;
 }
 .contecthead{
     width: 100%;
     height: 58px;
-    background: #ff6700;
+    background: #f5f5f5;
 }
 .contect1{
     width: 1226px;
     height: 420px;
-    background: aqua;
+    background: #ffffff;
 }
 .contect2{
     width: 296px;
     height: 419px;
-    background: brown;
+    background: #ffffff;
     margin-right: 14px;
     float: left;
+    border-top: 1px solid #ffac13;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
+.contect2:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
+}
+.contect22{
+    width: 296px;
+    height: 419px;
+    background: #ffffff;
+    margin-right: 14px;
+    float: left;
+    border-top: 1px solid #83c44e;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.contect22:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
+}
+
+.contect23{
+    width: 296px;
+    height: 419px;
+    background: #ffffff;
+    margin-right: 14px;
+    float: left;
+    border-top: 1px solid #e53935;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.contect23:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
+}
+
 .contect3{
     width: 296px;
     height: 419px;
-    background: brown;
+    background:#ffffff;
     margin-right: 14px;
     float: right;
     margin-right: 0px;
+    border-top: 1px solid  #2196f3;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
+.contect3:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
+}
+
 .contect4{
     width: 53px;
     height: 31px;
@@ -654,7 +877,118 @@ a{
     margin-top: 41px;
     color: #ffcd52;
 }
-
+.contect5{
+    width: 296px;
+    height: 27px;
+    text-align: center;
+}
+.contect6{
+    width: 296px;
+    height: 40px;
+    text-align: center;
+    margin-top: 18px;
+    color: #b0b0b0;
+    font-size: 11px;
+}
+.contect7{
+     width: 75px;
+     height: 21px;
+     margin-top: 18px;
+     text-align: center;
+    margin-left: 114px;
+ }
+.contect8{
+    margin-left: 73px;
+    margin-top: 18px;
+}
+.contect9{
+    width: 90px;
+    height: 31px;
+    color: #96c44e;
+    margin-left: 117px;
+    margin-top: 41px;
+}
+.contect11{
+    width: 53px;
+    height: 31px;
+    margin-left: 117px;
+    margin-top: 41px;
+    color: #e93935;
+}
+.contect10{
+    margin-top: 54px;
+    margin-left: 73px;
+}
+.contect12{
+    width: 296px;
+    height: 27px;
+    margin-left: 100px;
+}
+.video{
+    width: 1226px;
+    height: 344px;
+    background: burlywood;
+    margin:  0 auto;
+}
+.vidoheda{
+    width: 1226px;
+    height: 59px;
+    background: #f5f5f5;
+}
+/*.videoo{*/
+    /*width: 103px;*/
+    /*height: 45px;*/
+    /*margin-right: 1163px;*/
+/*}*/
+.video1{
+    width: 1226px;
+    height: 285px;
+    background: #f5f5f5;
+}
+.video2{
+    width: 296px;
+    height: 285px;
+    background: #ffffff;
+    float: left;
+    margin-right: 14px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.video2:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
+}
+.video3{
+    width: 296px;
+    height: 285px;
+    background: #ffffff;
+    float: left;
+    margin-right: 0px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.video3:hover{
+    transform: translateY(-4px);
+    transition: all 0.25s 0s linear;
+}
+.video4{
+    width: 296px;
+    height: 25px;
+    color: #333333;
+    text-align: center;
+    margin-top: 28px;
+    font-size: 12px;
+}
+.video5{
+    width: 296px;
+    height: 25px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #b0b0b0;
+}
 
 
 
